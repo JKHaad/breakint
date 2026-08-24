@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>(function(){try{var t=localStorage.getItem('breakint-theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0047FF">
+    <title>Contact Us | Get a Free Quote — Breakint</title>
+    <meta name="description" content="Contact Breakint to start your software project. Offices in Islamabad, Pakistan and Laredo, Texas. Reach us at info@breakint.com or +92 332 2332243." />
+    <meta name="keywords" content="contact Breakint, software development quote, hire software developers, IT consultancy contact" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.breakint.com/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.breakint.com/contact.html" />
+    <meta property="og:title" content="Contact Us | Get a Free Quote — Breakint" />
+    <meta property="og:description" content="Start your software project with Breakint. Offices in Islamabad, Pakistan and Laredo, Texas." />
+    <meta property="og:image" content="https://www.breakint.com/assets/img/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"><span class="cursor-text"></span></div>
+
+    <header>
+        <div class="container nav-wrap">
+            <a href="index.html" class="logo">break<span>int</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capabilities.html">Capabilities</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+            <button class="menu-toggle" id="menuToggle">Menu</button>
+        </div>
+    </header>
+
+    <main class="page-wrap">
+        <section id="contact" style="background: var(--invert-bg); color: #fff; border: none;">
+            <div class="container">
+                <h1 class="page-title reveal" style="margin-bottom: 6rem;">Let's Build <br><span class="accent-text">Something.</span></h1>
+                
+                <div class="contact-grid">
+                    <div class="contact-left">
+                        <span class="mono reveal" style="color: var(--accent); display: block; margin-bottom: 2rem;">[ Offices ]</span>
+                        <div class="office-block reveal"><h2>Pakistan Office</h2><p>Capital Technology Park, Park Road, Islamabad</p><p>+92 332 2332243</p></div>
+                        <div class="office-block reveal"><h2>USA Office</h2><p>7330 Springfield Ave. Laredo TX, 78045</p><p>+1 (956) 566-7301</p></div>
+                        <div class="office-block reveal"><h2>Email</h2><p>info@breakint.com</p></div>
+                    </div>
+                    
+                    <div class="contact-right reveal">
+                        <span class="mono reveal" style="color: var(--accent); display: block; margin-bottom: 2rem;">[ Start a Project ]</span>
+                        <form id="contactForm">
+                            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                                <div class="form-group" style="flex: 1 1 200px;"><input type="text" id="cf-name" placeholder="Your Name" required></div>
+                                <div class="form-group" style="flex: 1 1 200px;"><input type="tel" id="cf-phone" placeholder="Phone / Contact Number" required></div>
+                            </div>
+                            <div class="form-group"><input type="email" id="cf-email" placeholder="Your Email" required></div>
+                            <div class="form-group"><input type="text" id="cf-subject" placeholder="Subject" required></div>
+                            <div class="form-group"><textarea id="cf-message" placeholder="Tell us about your project..." required style="min-height: 150px;"></textarea></div>
+                            <button type="submit" class="submit-btn"><span id="submitBtnText">Send Message</span> <span>↗</span></button>
+                            <p id="contactFormNote" style="margin-top: 1rem; font-size: 0.85rem; color: #a0a0a0; min-height: 1.2em;"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="reveal">Pleasure to <br>work with you.</h2>
+                <a href="work.html" class="cta-btn magnetic reveal"><span class="btn-inner">View Our Work ↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col"><span class="logo">break<span style="color: var(--accent);">int</span></span><p>Dynamic technology solutions.</p></div>
+                <div class="footer-col"><h2>Menu</h2><a href="capabilities.html">Capabilities</a><a href="work.html">Work</a></div>
+                <div class="footer-col"><h2>Contact</h2><a href="mailto:info@breakint.com">info@breakint.com</a></div>
+            </div>
+            <div class="footer-bottom"><span>© Copyright Breakint.</span></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

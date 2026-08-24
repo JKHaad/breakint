@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: breakint-contact-backend
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: RECEIVER_EMAIL
+        value: info@breakint.com
+      - key: ALLOWED_ORIGINS
+        value: https://breakint.com,https://www.breakint.com
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: 587
+      - key: SMTP_SECURE
+        value: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
